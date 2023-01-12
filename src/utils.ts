@@ -1,5 +1,6 @@
 import { toast } from "react-toastify";
 
+//FUNCTION TO VALIDATE DISTANCE IN METRES
 export const getDistance = (
   setDistance: React.Dispatch<React.SetStateAction<number>>
 ) => {
@@ -41,7 +42,7 @@ export const getDistance = (
     ASSIGNED_LATITUDE,
     ASSIGNED_LONGITUE
   );
-
+  // Geolocation Web Api to get current position
   navigator.geolocation.getCurrentPosition(
     function (position) {
       console.log("Latitude is :", position.coords.latitude);

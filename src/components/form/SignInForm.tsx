@@ -16,6 +16,8 @@ export const SignInForm = () => {
       localStorage.setItem("user", JSON.stringify({ email, password }));
       window.location.href = "/app";
     }
+
+    //API CALL
   };
 
   return (

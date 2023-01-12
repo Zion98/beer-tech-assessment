@@ -4,11 +4,8 @@ import { Loader } from "@/components/elements";
 import FormLayout from "@/Layout/FormLayout";
 import SignIn from "@/pages/SignIn";
 import SignUp from "@/pages/SignUp";
-// import DashboardPage from "@/pages/Dashboard";
 
 const App = () => {
-    
-
   return (
     <FormLayout>
       <Suspense
